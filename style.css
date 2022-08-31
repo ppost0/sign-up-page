@@ -68,7 +68,8 @@ table {
 }
 
 .right-main {
-  padding-right: 10px;
+  padding-right: 40px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,7 +77,7 @@ table {
 
 .twice-photo {
   height: 250px;
-  border: 1px solid gray;
+  border: 1px solid black;
   width: auto;
   border-radius: 15px;
   position: relative;
@@ -123,6 +124,7 @@ h1 {
 .quote {
   position: relative;
   top: -200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
