@@ -32,7 +32,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+  display: flex;
 	line-height: 1;
+  height: 100vh;
 }
 ol, ul {
 	list-style: none;
@@ -53,13 +55,22 @@ table {
 
 
 
-.background-photo {
 
+
+
+.left-main {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
+.right-main {
+  margin-right: 10px;
+}
 
 .twice-photo {
-  height: 300px;
+  height: 250px;
   border: 1px solid black;
   width: auto;
   border-radius: 15px;
@@ -68,9 +79,25 @@ table {
 h1 {
   font-family: 'Press Start 2P', cursive;
   font-size: 1em;
+  line-height: 1.5;
 }
 
 .photo-caption {
   font-size: 10px;
 }
 
+.logo {
+  margin: 5px;
+  height: 40px;
+  width: auto;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-title {
+  text-align: center;
+
+}
