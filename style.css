@@ -59,45 +59,73 @@ table {
 
 
 .left-main {
+  background-image: url("img/background.jpeg");
+  background-position: -200px;
   display: flex;
   align-items: center;
-  margin-left: 10px;
-  margin-right: 5px;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 
 .right-main {
-  margin-right: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .twice-photo {
   height: 250px;
-  border: 1px solid black;
+  border: 1px solid gray;
   width: auto;
   border-radius: 15px;
+  position: relative;
+  top: -100px;
 }
 
 h1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.5;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .photo-caption {
-  font-size: 10px;
+  font-size: 0.1em;
+  text-align: right;
+  color: white;
+  position: relative;
+  top: -100px;
 }
 
 .logo {
   margin: 5px;
-  height: 40px;
+  height: 100px;
   width: auto;
 }
 
 .logo-box {
+  border-radius: 15px;
   display: flex;
   align-items: center;
+  background-color: rgba(31, 31, 31, 0.4);
+  position: relative;
+  top: -100px;
 }
 
 .logo-title {
   text-align: center;
 
+}
+
+.quote {
+  position: relative;
+  top: -200px;
+}
+
+
+*:visited {
+  color:white;
 }
