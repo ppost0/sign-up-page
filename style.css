@@ -68,6 +68,7 @@ table {
 }
 
 .right-main {
+  background-color: rgb(28, 28, 28);
   padding-right: 40px;
   padding-left: 20px;
   display: flex;
@@ -123,11 +124,53 @@ h1 {
 
 .quote {
   position: relative;
-  top: -200px;
+  top: -150px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 
 *:visited {
   color:white;
+}
+
+form label {
+  color: white;
+}
+
+div span {
+  color: white;
+}
+
+form ul li {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+}
+
+.form-box {
+  background-color: rgb(53, 53, 53);
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.9);
+
+  margin-left: -20px;
+  width: 130%;
+}
+
+.form-box>* {
+  margin: 20px;
+}
+
+
+.login {
+  position: relative;
+  top: 50px;
+}
+
+.login * {
+  color: white;
+}
+
+.create {
+  width:30%;
 }
