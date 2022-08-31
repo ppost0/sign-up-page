@@ -1,3 +1,15 @@
-div h1 {
-  color: red
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.twice-photo {
+  height: 300px;
+  width: auto;
+  border-radius: 15px;
 }
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+}
+
