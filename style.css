@@ -152,6 +152,8 @@ form ul li {
 .form-box {
   background-color: rgb(53, 53, 53);
   box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.9);
+  position: relative;
+  top: -50px;
 
   margin-left: -20px;
   width: 130%;
