@@ -81,13 +81,19 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex: 2 1 0;
 }
 
+.left-container {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
 .twice-photo {
-  height: 250px;
+  width: 500px;
   border: 1px solid black;
-  width: auto;
   border-radius: 15px;
   position: relative;
   top: -100px;
@@ -108,7 +114,6 @@ h1 {
   color: white;
   position: relative;
   top: -100px;
-  right: 10px;
 }
 
 .logo {
@@ -133,14 +138,14 @@ h1 {
 
 .quote {
   position: relative;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.5;
   top: -100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Press Start 2P', Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   color: rgba(225, 225, 225);
   width: 600px;
-  margin-left: 10%;
+  margin: 10px;
 }
 
 
@@ -179,9 +184,10 @@ form ul li {
 
 
 .login {
+  align-self: flex-start;
   position: relative;
   top: 50px;
-  margin-left: 10%;
+  left: 10%;
 }
 
 .login * {
@@ -245,4 +251,19 @@ input {
   display: flex;
   flex-flow: column;
   gap: 15px;
+}
+
+
+::placeholder {
+  color: rgba(0, 255, 0, 0.2);
+}
+
+input:optional {
+  opacity: .5;
+}
+
+
+input:focus {
+  -webkit-appearance: none;
+  border: 1px solid lime;
 }

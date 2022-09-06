@@ -11,7 +11,7 @@
 
   <div class="left-main">
 
-    <div>
+    <div class="left-container">
       <div class="logo-box">
         <h1 class="logo-title">Find the ideal teammate with <span>LF DUO!</span></h1><img class="logo" src="img/controller.svg">
       </div>
@@ -24,7 +24,7 @@
 
   <div class="right-main">
     <div>
-      <p class="quote">Ever wish you had better teammates than the knuckleheads matchmaking gives you? Ever been excited to play a new game just for none of your friends to end up playing it with you?
+      <p class="quote">Ever wish you had better teammates than the knuckleheads matchmaking gives you?
       Sign up below!</p>
     </div>
 
@@ -34,14 +34,14 @@
         <ul>
           <div class="inputs">
             <div class="inputs-left">
-              <li><label for="fname">First name*</label><input required type="text" id="fname"></li>
-              <li><label for="lname">Last name*</label><input required type="text" id="lname"></li>
-              <li><label for="email">Email*</label><input required type="email" id="email"></li>
+              <li><label for="fname">First name*</label><input placeholder="Patrick" required type="text" id="fname"></li>
+              <li><label for="lname">Last name*</label><input placeholder="Post" required type="text" id="lname"></li>
+              <li><label for="email">Email*</label><input placeholder="hero@email.com" required type="email" id="email"></li>
             </div>
             <div class="inputs-right">
-              <li><label for="phone">Phone number</label><input maxlength="10" type="tel" id="phone"></li>
-              <li><label for="password">Password*</label><input required type="password" id="password"></li>
-              <li><label for="confirm">Confirm password*</label><input required type="password" id="confirm"></li>
+              <li><label for="phone">Phone number</label><input placeholder="2124546767" maxlength="10" type="tel" id="phone"></li>
+              <li><label for="password">Password*</label><input minlength="6" maxlength="16" required type="password" id="password"></li>
+              <li><label for="confirm">Confirm password*</label><input minlength="6" maxlength="16" required type="password" id="confirm"></li>
             </div>
           </div>
           <li><button class="create" type="submit">Create Account</button></li>
